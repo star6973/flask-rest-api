@@ -1,4 +1,4 @@
-from flask import Flask, Blueprint
+from flask import Flask, render_template, request
 from rest_client.example import exam_bp
 
 app = Flask(__name__)
